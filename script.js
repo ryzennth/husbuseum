@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Dan Heng", category: "honkai", source: "Honkai Star Rail", image: "img/danheng.jpeg" },
         { name: "Harumasa", category: "game", source: "Zenless Zone Zero", image: "img/harumasa.jpeg" },
         { name: "Dan Heng IL", category: "honkai", source: "Honkai Star Rail", image: "img/danhengil.jpeg" },
-        { name: "Scar", category: "anime", source: "Fullmetal Alchemist", image: "img/scar.jpeg" },
+        { name: "Scar", category: "game", source: "Wuthering Waves", image: "img/scar.jpeg" },
         { name: "Kaiser", category: "anime", source: "Blue Lock", image: "img/kaiser.jpeg" },
         { name: "Nagi", category: "anime", source: "Blue Lock", image: "img/nagi.jpeg" },
         { name: "Bachira", category: "anime", source: "Blue Lock", image: "img/bachira.jpeg" },
