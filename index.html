@@ -21,19 +21,40 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="min-h-screen text-center pt-60 bg-gradient-to-b from-gray-900 to-gray-800">
-    <h2 class="text-white text-4xl md:text-5xl font-extrabold mb-4">Welcome to Husbuseum</h2>
-    <p class="text-gray-400 text-lg mb-6">Koleksi foto husbu Alinn, all in one place</p>
+   
+<section class="relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden">
+  <!-- video background -->
+  <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+    <source src="vid/bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- overlay biar teks tetep kebaca -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <!-- content -->
+  <div class="relative z-10">
+    <h2 class="text-white text-4xl md:text-5xl font-extrabold mb-4">
+      Welcome to Husbuseum
+    </h2>
+    <p class="text-gray-200 text-lg mb-6">
+      Koleksi foto husbu Alinn, all in one place
+    </p>
     <div class="grid gap-8 items-center justify-center">
-    <div class="relative group">
-      <div class="absolute -inset-1 bg-indigo-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
-      <button id="exploreBtn" class="relative px-7 py-4 bg-indigo-500 rounded-lg leading-non flex items-center divide-x divide-zinc-700">
-        <span class="pr-6 text-white">Husbuseum</span>
-        <span class="pl-6 text-white group-hover:text-indigo-900 transition duration-300"><a href="#main">Explore our galery &rarr;</a></span>
-      </button>
+      <div class="relative group">
+        <div class="absolute -inset-1 bg-indigo-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+        <button id="exploreBtn" 
+          class="relative px-7 py-4 bg-indigo-500 rounded-lg leading-none flex items-center divide-x divide-zinc-700">
+          <span class="pr-6 text-white">Husbuseum</span>
+          <span class="pl-6 text-white group-hover:text-indigo-900 transition duration-300">
+            <a href="#main">Explore our gallery &rarr;</a>
+          </span>
+        </button>
+      </div>
     </div>
   </div>
-  </section>
+</section>
+
 
     <main class="container mx-auto px-4 py-8">
         <div class="flex flex-col md:flex-row gap-6 mb-8">
@@ -58,9 +79,9 @@
             <!-- Character cards will be inserted here by JavaScript -->
         </div>
 <div class="mt-8 flex justify-center items-center gap-4">
-    <button id="prev-btn" class="px-4 py-2 bg-indigo-600 text-white rounded disabled:opacity-50">&larr; Previous</button>
+    <button id="prev-btn" class="px-4 py-2 bg-indigo-600 text-white rounded disabled:opacity-50 hover:bg-indigo-200 hover:text-indigo-600 hover:transition duration-300">&larr; Previous</button>
     <span id="pagination-info" class="text-gray-700"></span>
-    <button id="next-btn" class="px-4 py-2 bg-indigo-600 text-white rounded disabled:opacity-50">Next &rarr;</button>
+    <button id="next-btn" class="px-4 py-2 bg-indigo-600 text-white rounded disabled:opacity-50 hover:bg-indigo-200 hover:text-indigo-600 hover:transition duration-300">Next &rarr;</button>
 </div>
 
     </main>
