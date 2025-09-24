@@ -622,7 +622,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { name: "Levi", category: "anime", source: "Attack on Titan" },
     { name: "Eren", category: "anime", source: "Attack on Titan" },
     { name: "Todoroki", category: "anime", source: "My Hero Academia" },
-    { name: "Yuuta", category: "anime", source: "Jujutsu Kaisen" },
+    { name: "Yuta", category: "anime", source: "Jujutsu Kaisen" },
     { name: "Guren", category: "anime", source: "Seraph of the End" },
     { name: "Mechamaru", category: "anime", source: "Jujutsu Kaisen" },
     { name: "Rintaro Tsumugi", category: "anime", source: "Unknown" },
