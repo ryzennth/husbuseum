@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Harris Caine",
       category: "vtuber",
       source: "VTuber",
-      image: "img/harris.jpeg",
+      image: "img/harris.png",
     },
     {
       name: "Riji",
